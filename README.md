@@ -115,6 +115,40 @@ Possible improvements include:
 - Player resale value estimation
 - Interactive dashboard with Streamlit or Gradio
 
+## How to Run
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/ArdaGokmen0/fifa-squad-builder.git
+```
+
+2. Open the project folder in VS Code or Jupyter Notebook.
+
+3. Make sure the dataset is located at:
+
+```text
+data/fifa_eda_stats.csv
+```
+
+4. Open and run:
+
+```text
+fifa_squad_builder.ipynb
+```
+
+## Repository Structure
+
+```text
+fifa-squad-builder/
+│
+├── README.md
+├── fifa_squad_builder.ipynb
+├── data/
+│   └── fifa_eda_stats.csv
+└── .gitignore
+```
+
 ## Tools Used
 
 - Python
